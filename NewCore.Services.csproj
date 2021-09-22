@@ -32,4 +32,9 @@
     <Folder Include="PlanServices\" />
     <Folder Include="ServiceInterfaces\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ServiceInterfaces\IServiceInterfaces.cs" />
+    <Compile Remove="CustomerServices\CustomerAddress.cs" />
+    <Compile Remove="CustomerServices\CustomerProfiles.cs" />
+  </ItemGroup>
 </Project>
