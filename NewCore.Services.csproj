@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NewCore.Data\NewCore.Data.csproj" />
+    <ProjectReference Include="..\NewCore.Dtos\NewCore.Dtos.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Newtonsoft.Json" />
@@ -16,6 +17,8 @@
     <None Remove="PolicyServices\" />
     <None Remove="PlanServices\" />
     <None Remove="ServiceInterfaces\" />
+    <None Remove="BusClass\" />
+    <None Remove="BusClass\DtoConversions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -31,6 +34,8 @@
     <Folder Include="PolicyServices\" />
     <Folder Include="PlanServices\" />
     <Folder Include="ServiceInterfaces\" />
+    <Folder Include="BusClass\" />
+    <Folder Include="BusClass\DtoConversions\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ServiceInterfaces\IServiceInterfaces.cs" />
