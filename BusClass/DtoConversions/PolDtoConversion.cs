@@ -37,7 +37,7 @@ namespace NewCore.Services.BusClass.DtoConversions
                 PlanId = polDto.planId,
                 PolFaceAmt = polDto.polFaceAmt,
                 PolPremAmt = polDto.polPremAmt
-        };
+            };
         }
 
         public void MovePolDto2Pol(PolicyDto polDto, Policy pol)

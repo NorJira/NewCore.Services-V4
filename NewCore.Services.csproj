@@ -19,6 +19,8 @@
     <None Remove="ServiceInterfaces\" />
     <None Remove="BusClass\" />
     <None Remove="BusClass\DtoConversions\" />
+    <None Remove="PolCvgServices\" />
+    <None Remove="BusClass\CusBAL\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -36,6 +38,8 @@
     <Folder Include="ServiceInterfaces\" />
     <Folder Include="BusClass\" />
     <Folder Include="BusClass\DtoConversions\" />
+    <Folder Include="PolCvgServices\" />
+    <Folder Include="BusClass\CusBAL\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ServiceInterfaces\IServiceInterfaces.cs" />
