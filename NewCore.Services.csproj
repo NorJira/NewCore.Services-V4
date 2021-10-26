@@ -21,6 +21,7 @@
     <None Remove="BusClass\DtoConversions\" />
     <None Remove="PolCvgServices\" />
     <None Remove="BusClass\CusBAL\" />
+    <None Remove="MailKit" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -30,6 +31,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomerServices\" />
